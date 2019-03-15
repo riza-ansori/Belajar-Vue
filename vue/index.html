@@ -60,9 +60,9 @@
                         <tbody>
                             <!-- Add -->
                             <tr>
-                                <td><input type='text' v-model='username' class="form-control"></td>
-                                <td><input type='text' v-model='name' class="form-control"></td>
-                                <td><input type='text' v-model='email' class="form-control"></td>
+                                <td><input type='text' v-model='username' v-bind:placeholder="p_username" class="form-control"></td>
+                                <td><input type='text' v-model='name' v-bind:placeholder="p_name" class="form-control"></td>
+                                <td><input type='text' v-model='email' v-bind:placeholder="p_mail" class="form-control"></td>
                                 <td><button type="button" class="btn btn-primary" @click='addRecord();'>Add</button></td>
                             </tr>
                             <!-- Update/Delete -->
