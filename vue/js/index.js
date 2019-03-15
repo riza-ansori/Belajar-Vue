@@ -43,7 +43,10 @@ var app = new Vue({
       userid: 0,
       username: "",
       name: "",
-      email: ""
+      email: "",
+      p_username: "User Name",
+      p_name: "Name",
+      p_mail: "Email",
     },
     methods: {
      allRecords: function(){
